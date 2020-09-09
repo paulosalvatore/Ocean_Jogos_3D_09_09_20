@@ -645,3 +645,4 @@ MonoBehaviour:
   rb: {fileID: 1168245182}
   velocidade: 4
   velocidadeRotacao: 180
+  anim: {fileID: 1168245180}
