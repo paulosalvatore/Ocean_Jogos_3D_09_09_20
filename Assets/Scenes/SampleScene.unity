@@ -397,7 +397,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 51120a7658d2d8143af51002e556928c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 51120a7658d2d8143af51002e556928c, type: 3}
       propertyPath: m_LocalRotation.z
@@ -405,7 +405,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 51120a7658d2d8143af51002e556928c, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 51120a7658d2d8143af51002e556928c, type: 3}
       propertyPath: m_RootOrder
@@ -417,7 +417,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 51120a7658d2d8143af51002e556928c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 51120a7658d2d8143af51002e556928c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -480,7 +480,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!136 &1168245183
 CapsuleCollider:
@@ -508,3 +508,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3721f9a98cd907243a43dd990eecf2e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb: {fileID: 1168245182}
+  velocidade: 4
